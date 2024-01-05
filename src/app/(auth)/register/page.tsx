@@ -1,5 +1,5 @@
 export default function Register() {
     return(
-        <div>Forgot Password</div>
+        <div>Register page</div>
     )
 }
