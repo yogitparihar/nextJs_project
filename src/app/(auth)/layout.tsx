@@ -11,6 +11,7 @@ export default function RootLayout({
   }) {
     return (
       <div>
+        <p>List of page</p>
         {navLinks.map((link)=>{
             return(
                 <Link href={link.href} key={link.name}>{link.name}</Link>
